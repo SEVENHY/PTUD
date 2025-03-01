@@ -20,6 +20,7 @@ public class ConnectDBByMySQL {
 	public void disconnect() throws SQLException {
 		if(con != null)
 			con.close();
+		//hihi
 	}
 	public static Connection getConnection() {
 		return con;
